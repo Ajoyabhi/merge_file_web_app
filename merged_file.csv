@@ -1,0 +1,16 @@
+Object Class,Precision,Recall,Accuracy
+All,0.92,0.94,0.963
+Basophil,0.977,1,0.995
+ Eosinophil,0.93,1,0.967
+ Lymphocyte,0.986,0.909,0.986
+ Monocyte,0.889,0.931,0.932
+Neutrophil,0.913,0.96,0.956
+Platelets,0.854,0.878,0.955
+ RBC,0.889,0.904,0.952
+Method,WBCs(%),RBCs(%),Platelet(%),mAP(%),Execution time(ms)
+ISE-YOLO [1],96.5,92.7,86.9,85.7,43
+G-YOLO [2],87.3,83.6,79.9,83.6,47
+MS-CNN [3],87.4,86.3,80.4,84.7,246
+mask R-CNN [4],92,94,'-,93,81
+YOLO-v3+GMP [5],91.2,84.8,78.1,81.6,37
+C3TR-YOLOv5,96.72,95.2,95.5,96.3,41
